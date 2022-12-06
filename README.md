@@ -1,1 +1,1 @@
-# open-finance-participants
+# Open Finance Participants
