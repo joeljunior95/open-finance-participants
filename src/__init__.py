@@ -6,11 +6,8 @@ from flask import Flask, jsonify
 from flask_cors import CORS, cross_origin
 from apscheduler.schedulers.background import BackgroundScheduler
 
-
 from src.db import get_db, update_database
 
-def train_model():
-    print('the scheduler called me at: %s' % datetime.now())
 
 def start_scheduler():
     scheduler = BackgroundScheduler()
