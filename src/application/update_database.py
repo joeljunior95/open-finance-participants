@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import requests
 from datetime import datetime
-from src import db
+from src.application import db
 
 
 def start():
